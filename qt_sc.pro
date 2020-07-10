@@ -34,3 +34,7 @@ unix:!macx: LIBS += -L$$PWD/../../../../../opt/lib/ -lsystemc
 
 INCLUDEPATH += $$PWD/../../../../../opt/include
 DEPENDPATH += $$PWD/../../../../../opt/include
+
+DISTFILES += \
+    LICENSE \
+    README.md
